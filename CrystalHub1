@@ -951,7 +951,7 @@ local function NBIP_fake_script() -- TextButton_6.LocalScript
 	end)
 	script.Parent.MouseButton1Click:Connect(function()
          CrystalHubMainFrame:Destroy()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/CrystalHub1/CrystalHubTower/main/CrystalHubTowerOfHell", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CrystalHub1/warning/main/warningTowerOf", true))()
 	end)
 end
 coroutine.wrap(NBIP_fake_script)()
